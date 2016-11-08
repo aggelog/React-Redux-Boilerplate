@@ -1,5 +1,7 @@
 # React / Redux Boilerplate
 
+![](RRW.png)
+
 |  Main Stack  |     Middleware     | Unit Testing | Static Testing | Other Libraries - Tools |
 |:------------:|:------------------:|:------------:|:--------------:|:-----------------------:|
 |    [ReactJS](https://facebook.github.io/react/)   | [React-Router-Redux](https://github.com/reactjs/react-router-redux) |    [Ava.JS](https://github.com/avajs/ava)    |     [ESLint](http://eslint.org/)     |         [Webpack](https://github.com/webpack/webpack)         |
