@@ -1,5 +1,7 @@
 # React / Redux Boilerplate
 
+[![CircleCI](https://circleci.com/gh/aggelog/React-Redux-Boilerplate.svg?style=shield)](https://circleci.com/gh/aggelog/React-Redux-Boilerplate) [![Coverage Status](https://coveralls.io/repos/github/aggelog/React-Redux-Boilerplate/badge.svg?branch=master)](https://coveralls.io/github/aggelog/React-Redux-Boilerplate?branch=master)
+
 ![](RRW.png)
 
 |  Main Stack  |     Middleware     | Unit Testing | Static Testing | Other Libraries - Tools |
