@@ -1,0 +1,63 @@
+* {
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+#app,
+#app > div,
+html,
+body {
+    height: 100%;
+    margin: 0 !important;
+}
+
+body {
+    /* Safari 4-5, Chrome 1-9
+       Can't specify a percentage size? Laaaaaame. */
+    background: -webkit-gradient(radial, center center, 0, center center, 460px, from(#1a82f7), to(#2f2727));
+
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-radial-gradient(circle, #1a82f7, #2f2727);
+
+    /* Firefox 3.6+ */
+    background: -moz-radial-gradient(circle, #1a82f7, #2f2727);
+
+    /* IE 10 */
+    background: -ms-radial-gradient(circle, #1a82f7, #2f2727);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
