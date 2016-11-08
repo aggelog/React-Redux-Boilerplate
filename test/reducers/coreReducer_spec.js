@@ -5,7 +5,7 @@ import setState from '../../src/actions/coreActions';
 
 
 const initialState = fromJS({
-    message: 'Welcome to React Redux Boilerplate!!'
+    message: '@aggelog: Welcome to React Redux Boilerplate!'
 });
 
 test('initialization of the state', t => {
