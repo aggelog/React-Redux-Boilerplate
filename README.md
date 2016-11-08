@@ -33,9 +33,9 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 Install Git (if not already installed):
 
 ```sh
-brew update
 brew doctor
-echo 'export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"' >> ~/.bash_profile
+brew update
+brew install git
 ```    
 Close and reopen the terminal window.
 
