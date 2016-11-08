@@ -1,6 +1,6 @@
 # React / Redux Boilerplate
 
-[![CircleCI](https://circleci.com/gh/aggelog/React-Redux-Boilerplate.svg?style=shield)](https://circleci.com/gh/aggelog/React-Redux-Boilerplate) [![Coverage Status](https://coveralls.io/repos/github/aggelog/React-Redux-Boilerplate/badge.svg?branch=master)](https://coveralls.io/github/aggelog/React-Redux-Boilerplate?branch=master)
+[![CircleCI](https://circleci.com/gh/aggelog/React-Redux-Boilerplate.svg?style=shield)](https://circleci.com/gh/aggelog/React-Redux-Boilerplate) [![Coverage Status](https://coveralls.io/repos/github/aggelog/React-Redux-Boilerplate/badge.svg?branch=master)](https://coveralls.io/github/aggelog/React-Redux-Boilerplate?branch=master) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![](RRW.png)
 
@@ -123,3 +123,7 @@ Usage
     ```sh
     npm run clean
     ```
+
+License
+-------
+See the [LICENSE](LICENSE.txt) file for license rights and limitations (MIT).

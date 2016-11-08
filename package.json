@@ -25,13 +25,13 @@
   },
   "keywords": [],
   "author": "Ioannis Angelogiannis",
-  "license": "ISC",
+  "license": "MIT",
   "pre-commit": [
     "test"
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/aggelog/React-Redux-Boilerplate.git"
   },
   "devDependencies": {
     "assets-webpack-plugin": "^3.4.0",
