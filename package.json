@@ -15,7 +15,7 @@
     "start": "node run",
     "build": "node run build",
     "build:debug": "node run build --debug",
-    "coverage": "nyc npm run test",
+    "coverage": "nyc ava --verbose",
     "check-coverage": "nyc check-coverage --statements 1 --branches 1 --functions 1 --lines 1",
     "post-coverage": "nyc ava && nyc report --reporter=text-lcov | coveralls",
     "test": "ava --tap | tap-nyan",
