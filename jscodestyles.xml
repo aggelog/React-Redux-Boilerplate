@@ -1,3 +1,4 @@
+<!-- Import this file to WebStorm JavaScript code styles -->
 <code_scheme name="ReactJSX">
   <JSCodeStyleSettings>
     <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />

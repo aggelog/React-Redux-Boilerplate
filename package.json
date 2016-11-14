@@ -17,7 +17,7 @@
     "build:debug": "node run build --debug",
     "coverage": "nyc ava --verbose",
     "check-coverage": "nyc check-coverage --statements 1 --branches 1 --functions 1 --lines 1",
-    "post-coverage": "nyc ava && nyc report --reporter=text-lcov | coveralls",
+    "post-coverage": "nyc report --reporter=text-lcov | coveralls",
     "test": "ava --tap | tap-nyan",
     "test:watch": "ava --watch",
     "cover:watch": "nodemon --quiet --watch test --exec nyc ava -s",
