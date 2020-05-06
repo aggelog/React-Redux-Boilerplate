@@ -21,7 +21,9 @@
     "test": "ava --tap | tap-nyan",
     "test:watch": "ava --watch",
     "cover:watch": "nodemon --quiet --watch test --exec nyc ava -s",
-    "clean": "node run clean && rm -rf node_modules && rm -rf .nyc_output && rm -rf coverage"
+    "clean": "node run clean && rm -rf node_modules && rm -rf .nyc_output && rm -rf coverage",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "Ioannis Angelogiannis",
@@ -162,6 +164,8 @@
     "redux-form-material-ui": "^4.0.1",
     "redux-immutable": "^3.0.8",
     "redux-logger": "^2.6.1",
-    "redux-thunk": "^2.1.0"
-  }
+    "redux-thunk": "^2.1.0",
+    "snyk": "^1.319.0"
+  },
+  "snyk": true
 }
