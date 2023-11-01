@@ -140,7 +140,7 @@
     ]
   },
   "dependencies": {
-    "axios": "^0.14.0",
+    "axios": "^1.6.0",
     "classnames": "^2.2.5",
     "fastclick": "^1.0.6",
     "immutable": "^3.8.1",
